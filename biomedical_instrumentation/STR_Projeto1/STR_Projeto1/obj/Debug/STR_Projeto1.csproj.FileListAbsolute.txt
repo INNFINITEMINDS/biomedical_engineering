@@ -1,0 +1,9 @@
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\bin\Debug\STR_Projeto1.exe.config
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\bin\Debug\STR_Projeto1.exe
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\bin\Debug\STR_Projeto1.pdb
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\obj\Debug\STR_Projeto1.csprojResolveAssemblyReference.cache
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\obj\Debug\STR_Projeto1.Form1.resources
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\obj\Debug\STR_Projeto1.Properties.Resources.resources
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\obj\Debug\STR_Projeto1.csproj.GenerateResource.Cache
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\obj\Debug\STR_Projeto1.exe
+c:\users\andrei\documents\visual studio 2015\Projects\STR_Projeto1\STR_Projeto1\obj\Debug\STR_Projeto1.pdb
