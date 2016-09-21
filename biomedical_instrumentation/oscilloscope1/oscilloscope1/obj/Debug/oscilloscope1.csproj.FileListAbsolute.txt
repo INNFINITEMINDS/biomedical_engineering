@@ -1,9 +1,0 @@
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\bin\Debug\oscilloscope1.exe.config
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\bin\Debug\oscilloscope1.exe
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\bin\Debug\oscilloscope1.pdb
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\obj\Debug\oscilloscope1.csprojResolveAssemblyReference.cache
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\obj\Debug\oscilloscope1.Properties.Resources.resources
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\obj\Debug\oscilloscope1.csproj.GenerateResource.Cache
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\obj\Debug\oscilloscope1.exe
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\obj\Debug\oscilloscope1.pdb
-C:\Users\Andrei\Documents\GitHub\biomedical_engineering\biomedical_instrumentation\oscilloscope1\oscilloscope1\obj\Debug\oscilloscope1.MainWindow.resources
