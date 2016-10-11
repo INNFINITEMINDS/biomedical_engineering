@@ -6,3 +6,4 @@ Description of the folders:
 
 - oscilloscope2: This project contains one signal waveform generator, one oscilloscope and the data acquisition is handled through a circular buffer
 
+- arduino: This folder contains arduino source codes
