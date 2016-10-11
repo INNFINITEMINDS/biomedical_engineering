@@ -68,10 +68,15 @@ namespace intro_serial
 
         private void btReceber_Click(object sender, EventArgs e)
         {
-            //Ler uma linha inteira de dados enviada pelo Arduino
-            string textoRecebido = serialPort1.ReadLine();
-            //Mostrar na textbox o que foi recebido
-            tbReceber.Text = textoRecebido;
+            //Se tiver algum dado disponível para leitura
+            //Ler os dados
+            if (serialPort1.BytesToRead > 0)
+            {
+                //Ler uma linha inteira de dados enviada pelo Arduino
+                string textoRecebido = serialPort1.ReadLine();
+                //Mostrar na textbox o que foi recebido
+                tbReceber.Text = textoRecebido;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -89,9 +94,13 @@ namespace intro_serial
 
         private void btRecebeByte_Click(object sender, EventArgs e)
         {
+            //Se tiver algum dado disponível para leitura
+            //Ler os dados
             if (serialPort1.BytesToRead > 0)
             {
+                //Ler um byte
                 string byteLido = serialPort1.ReadByte().ToString();
+                //Escreve o byte lido na textbox
                 tbReceber.Text = byteLido;
             }
         }
