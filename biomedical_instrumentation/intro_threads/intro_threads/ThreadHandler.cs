@@ -43,8 +43,8 @@ namespace DataAcquisition
         //Stops the thead
         public void Stop()
         {
-            this.flagPause = true;
-            this.flagRun = false;
+            this.flagPause = true; //Necessary for breaking the first loop
+            this.flagRun = false; //Breaks the final loop
         }
 
         //Resumes the thread
@@ -58,6 +58,18 @@ namespace DataAcquisition
         {
             this.flagPause = true;
         }        
+
+        //Returns whether the thread is still running
+        public bool IsAlive()
+        {
+            return this.flagRun;
+        }
+
+        //Returns whether the thread is paused
+        public bool IsPaused()
+        {
+            return this.flagPause;
+        }
 
         //The method passed to the ThreadHandler will be called inside the Run method
         //This method has two flags to control its execution
