@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+-----------------------------------------------------------
+    FEDERAL UNIVERSITY OF UBERLÂNDIA
+    Faculty of Electrical Engineering
+    Biomedical Engineering Lab
+-----------------------------------------------------------
+    Author: Andrei Nakagawa, MSc
+    email: andrei.ufu@gmail.com
+-----------------------------------------------------------
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
