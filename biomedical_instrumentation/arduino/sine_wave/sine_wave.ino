@@ -48,8 +48,7 @@ void setup() {
 
   //Timer period in us
   Timer1.initialize(sampPeriod);
-  Timer1.attachInterrupt(timerTick);
-  dt = 1.0/freq;
+  Timer1.attachInterrupt(timerTick);  
 }
 
 void timerTick()
