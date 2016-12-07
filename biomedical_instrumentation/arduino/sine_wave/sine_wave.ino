@@ -32,7 +32,7 @@ int convAD(double xval, double xmin, double xmax)
 {
   double adVal = 0;
   double ymin = 0;
-  double ymax = pow(2,bitsAD);
+  double ymax = pow(2,bitsAD)-1;
   adVal = ((xval-xmin)*(ymax-ymin) / (xmax-xmin)) + ymin;
   int iadVal = adVal;    
   return iadVal;
@@ -54,7 +54,7 @@ void setup() {
 void timerTick()
 {
   Timer1.stop();
-  int sample = convAD(sin(2*PI*freq*cont*(1.0/sampfreq)),-amp,amp);
+    int sample = convAD(sin(2*PI*freq*cont*(1.0/sampfreq)),-amp,amp);
   cont++;
   if(cont >= sampfreq)
     cont = 0;  
