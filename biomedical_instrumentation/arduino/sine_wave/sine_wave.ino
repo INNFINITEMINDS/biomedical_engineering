@@ -54,7 +54,7 @@ void setup() {
 void timerTick()
 {
   Timer1.stop();
-    int sample = convAD(sin(2*PI*freq*cont*(1.0/sampfreq)),-amp,amp);
+  int sample = convAD(sin(2*PI*freq*cont*(1.0/sampfreq)),-amp,amp);
   cont++;
   if(cont >= sampfreq)
     cont = 0;  
