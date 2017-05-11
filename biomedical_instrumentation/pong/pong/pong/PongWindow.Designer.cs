@@ -94,6 +94,7 @@
             // 
             // pongTimer
             // 
+            this.pongTimer.Interval = 50;
             this.pongTimer.Tick += new System.EventHandler(this.pongTimer_Tick);
             // 
             // label1
